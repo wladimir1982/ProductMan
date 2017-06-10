@@ -1,0 +1,107 @@
+body {
+    background-color: #eeeeee;
+}
+
+/*Header*/
+
+.caption {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.site-header {
+    padding-top: 48px;
+    padding-bottom: 70px;
+}
+.site-header .caption {
+    font-size: 0;
+}
+.site-header .caption .logo {
+    display: inline-block;
+    width: 50%;
+}
+.site-header .caption a:hover {
+    color: darkviolet;
+}
+.site-header .menu {
+    width: 50%;
+    display: inline-block;
+    font-size: 18px;
+    list-style: none;
+    text-align: right;
+}
+.site-header .menu a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #303030;
+    text-decoration: none;
+}
+.site-header .menu a:hover {
+    color: darkviolet;
+}
+.menu .menu-item {
+    display: inline-block;
+    margin-right: 15%
+}
+
+/*Main*/
+
+.slide {
+    outline: none;
+    padding-bottom: 50px;
+}
+.black-white .slider {
+    font-size: 0;
+}
+.black-white {
+    text-align: right;
+    padding-top: 80px;
+}
+.black-white .col-1 {
+    display: inline-block;
+    width: 53%;
+    margin-right: 8%;
+}
+.black-white .title {
+    font: 900 150px/1 'Raleway', sans-serif;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.black-white p {
+    text-align: right;
+    padding-right: 1%;
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    margin-bottom: 15px;
+}
+.black-white p:hover {
+    color: darkviolet;
+}
+.black-white .col-2 {
+    width: 30%;
+    display: inline-block;
+    padding-left:
+}
+.black-white a {
+    width: 143px;
+    height: 24px;
+    color: #e10011;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-decoration: none;
+}
+.black-white a:hover {
+    color: darkviolet;
+}
