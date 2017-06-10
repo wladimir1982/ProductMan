@@ -1,111 +1,100 @@
-* {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-box-sizing: border-box;
-}
-
 body {
     background-color: #eeeeee;
+}
+
+/*Header*/
+
+.caption {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.site-header {
+    padding-top: 48px;
+    padding-bottom: 70px;
+}
+.site-header .caption {
+    font-size: 0;
+}
+.site-header .caption .logo {
+    display: inline-block;
+    width: 50%;
+}
+.site-header .caption a:hover {
+    color: darkviolet;
+}
+.site-header .menu {
+    width: 50%;
+    display: inline-block;
+    font-size: 18px;
+    list-style: none;
+    text-align: right;
+}
+.site-header .menu a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #303030;
+    text-decoration: none;
+}
+.site-header .menu a:hover {
+    color: darkviolet;
+}
+.menu .menu-item {
+    display: inline-block;
+    margin-right: 15%
+}
+
+/*Main*/
+
+.slide {
+    outline: none;
+    padding-bottom: 50px;
+}
+.black-white .slider {
+    font-size: 0;
+}
+.black-white {
+    text-align: right;
+    padding-top: 80px;
+}
+.black-white .col-1 {
+    display: inline-block;
+    width: 53%;
+    margin-right: 8%;
+}
+.black-white .title {
+    font: 900 150px/1 'Raleway', sans-serif;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.black-white p {
+    text-align: right;
+    padding-right: 1%;
     color: #303030;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 300;
     line-height: 36px;
+    margin-bottom: 15px;
 }
-
-/*Header*/
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
+.black-white p:hover {
+    color: darkviolet;
 }
-.clearfix {
+.black-white .col-2 {
+    width: 30%;
     display: inline-block;
+    padding-left:
 }
-
-/* start commented backslash hack \*/
-
-* html .clearfix {
-    height: 1%;
-}
-.clearfix {
-    display: block;
-}
-
-/* close commented backslash hack */
-
-.header {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 48px 0 50px;
-    font-size: 0;
-}
-.logo {
-    float: left;
-}
-.nav {
-    float: right;
-    margin-left: 574px;
-}
-.nav-menu {
-    margin: 0;
-    padding: 0;
-}
-.nav-menu__item {
-    display: inline;
-}
-.nav-menu__item:nth-child(even) {
-    margin-left: 52px;
-}
-.nav-menu__item:nth-child(3) {
-    margin-left: 40px;
-}
-.nav-menu__link {
-    color: #303030;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    text-decoration: none;
-    text-transform: capitalize;
-}
-.nav-menu__link:hover {
-    color: rgba(0, 0, 255, 0.85);
-}
-
-/*section Black&White*/
-
-.wrapper {
-    width: 1200px;
-    margin: 50px auto 0;
-    padding: 0 0 50px;
-}
-.wrapper__text {
-    width: 52%;
-    float: left;
-}
-.wrapper__title {
-    color: #303030;
-    font-family: 'Raleway', sans-serif;
-    font-size: 150px;
-    font-weight: 900;
-    line-height: 150px;
-    word-wrap: break-word;
-    text-transform: uppercase;
-    margin: 60px auto 0px;
-    text-align: right;
-}
-.wrapper__description {
-    text-align: right;
-}
-.wrapper__subtitle:hover {
-    color: rgba(0, 0, 255, 0.85);
-}
-.wrapper__link {
-    float: right;
+.black-white a {
+    width: 143px;
+    height: 24px;
     color: #e10011;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
@@ -113,158 +102,6 @@ body {
     line-height: 36px;
     text-decoration: none;
 }
-.wrapper__link:hover {
-    color: rgba(0, 0, 255, 0.85);
+.black-white a:hover {
+    color: darkviolet;
 }
-.wrapper__image {
-    width: 31%;
-    float: right;
-    margin: 50px auto 0;
-}
-.wrapper__slider {
-    text-align: center;
-    margin-top: 80px;
-}
-
-/*section Product*/
-
-.product {
-    width: 1200px;
-    margin: 0 auto;
-    padding-top: 8%;
-    background-color: #ffffff;
-}
-.product__subtitle {
-    color: #303030;
-    font-family: 'Raleway', sans-serif;
-    font-size: 48px;
-    font-weight: 900;
-    text-align: center;
-    margin: 0 auto;
-}
-.product__underline {
-    text-align: center;
-}
-.product__description {
-    width: 46%;
-    color: #303030;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-    margin: 0 auto;
-    text-align: center;
-}
-.product__image1 {
-    padding-top: 6%;
-    text-align: center;
-}
-.product__image2 {
-    padding-bottom: 6%;
-    text-align: center;
-}
-.product__picture {
-    padding: 17px;
-}
-
-/*Footer*/
-
-.text-subtitle {
-    color: #303030;
-    font-family: 'Raleway', sans-serif;
-    font-size: 48px;
-    font-weight: 900;
-    text-align: center;
-    margin: 6% 0 2%;
-    text-transform: uppercase;
-}
-.text-description {
-    width: 46%;
-    margin: 0 auto;
-    color: #303030;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
-}
-input {
-    margin: 32px 0;
-    border: transparent;
-    height: 48px;
-    margin-top: 32px;
-}
-.input-mail {
-    border-radius: 35px 0px 0px 35px;
-    width: 40%;
-    background-image: url('../img/env-productman.jpg');
-    background-position: left 2% center;
-    background size: cover;
-    background-repeat: no-repeat;
-    margin-left: 27%;
-    margin-top: 2%;
-    padding: 0 3%;
-}
-.input-mail:focus {
-    outline: none;
-    -webkit-box-shadow: inset 0px 0px 74px 0px rgba(252, 219, 0, 1);
-    -moz-box-shadow: inset 0px 0px 74px 0px rgba(252, 219, 0, 1);
-    box-shadow: inset 0px 0px 74px 0px rgba(252, 219, 0, 1);
-}
-.input-mail:hover {
-    cursor: help;
-    background-color: rgba(252, 219, 0, 0.85);
-}
-.input-submit {
-    background-color: #e10011;
-    color: #ffffff;
-    font-weight: 700;
-    width: 14%;
-    border-radius: 0px 35px 35px 0px;
-    margin-top: 2%;
-    /*Removes iPad styles : */
-    -webkit-appearance: none;
-    /*Removes iPad styles*/
-    transition: all 0.3s ease;
-}
-.input-submit:hover {
-    cursor: pointer;
-    background-color: rgba(0, 0, 255, 0.85);
-}
-.socials {
-    text-align: center;
-}
-.social__link {
-    display: inline-block;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background-color: #FFF;
-    color: #979797;
-    font-family: 'Font Awesome', sans-serif;
-    margin: 10px;
-}
-.social__icon {
-    font-size: 45px;
-    font-weight: 400;
-    padding: 15px 0;
-}
-.social__link {
-    color: #979797;
-}
-.social__link:hover {
-    color: rgba(0, 0, 255, 0.85);
-}
-.copyright {
-    margin-top: 4%;
-    color: #979797;
-    text-align: center;
-}
-.copyright a {
-    color: #303030;
-    text-decoration: none;
-}
-.copyright a:hover {
-    color: rgba(0, 0, 255, 0.85);
-}
-/*The End of the film:)))*/
